@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  color: #000;
+  background-image: url("https://anywhereweroam.com/wp-content/uploads/2022/08/vestrahorn-anywhere-we-roam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: var(--whiteColor);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainheading {
+  text-transform: uppercase;
+  letter-spacing: 0.1em !important;
+  font-size: 28px;
+}
+.subheading {
+  font-size: 17px;
+  margin-top: 5px;
+}

@@ -1,0 +1,66 @@
+.relativeContainer {
+  position: relative;
+}
+.container {
+  height: 80px;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+.whiteContainer {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: var(--bgColor);
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  list-style: none;
+}
+.bkli {
+  margin: 0 1rem 0 1rem;
+  font-weight: 600;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  font-family: "Jost";
+  text-transform: uppercase;
+  color: var(--titleColor);
+}
+.whli {
+  margin: 0 1rem 0 1rem;
+  font-weight: 600;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  font-family: "Jost";
+  text-transform: uppercase;
+  color: var(--whiteColor);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxicons {
+  color: var(--whiteColor);
+  font-size: 1.25em;
+  margin: 0 0.45rem 0 0.45rem;
+}
+.Bkboxicons {
+  color: var(--titleColor);
+  font-size: 1.25em;
+  margin: 0 0.45rem 0 0.45rem;
+}

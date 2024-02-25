@@ -1,0 +1,51 @@
+.mainContainer {
+  background-color: var(--bgColor);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 12em 6em 8em 6em;
+}
+.rightContainer {
+  max-width: 545px;
+  padding: 6em 0 0 0;
+}
+
+.title {
+  color: var(--titleColor);
+  font-weight: 400;
+  font-size: 36px;
+  display: block;
+}
+.text {
+  color: var(--titleColor);
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 18px 0 0;
+}
+.dividerWrapper {
+  position: relative;
+  margin: auto;
+}
+.divider {
+  position: relative;
+  border-top-style: none;
+  padding: 18px 0;
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  left: 9.5%;
+  top: 50%;
+  width: 80%;
+  border-color: #303133 !important;
+  opacity: 0.2;
+  border-top-style: solid;
+  border-width: 0.8px;
+}
+.arrow {
+  position: absolute;
+  top: -22%;
+  left: 50%;
+  transform: rotate(90deg);
+}
