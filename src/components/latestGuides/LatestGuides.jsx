@@ -33,9 +33,9 @@ function LatestGuides() {
           <span>our latest guides</span>
         </div>
         <div className={styles.guideContainer}>
-          {Guides.map((guide) => {
+          {Guides.map((guide, index) => {
             return (
-              <div>
+              <div key={index}>
                 <div className={styles.image}>
                   <Image src={guide.img} width={280} height={380} />
                 </div>

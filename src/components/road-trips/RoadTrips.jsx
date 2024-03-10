@@ -41,19 +41,10 @@ function RoadTrips() {
           </p>
         </div>
         <div className={styles.imagesContainer}>
-          {/* {images.map((image) => {
-            return (
-              <Image
-                src={image}
-                width={759}
-                height={506}
-                className={styles.image}
-              />
-            );
-          })} */}
-          {images.map((image) => {
+          {images.map((image, index) => {
             return (
               <div
+                key={index}
                 className={styles.imageContainer}
                 style={{
                   backgroundImage: `linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(43,38,42,1) 100%), url(${image.img})`,
