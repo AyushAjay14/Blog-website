@@ -30,7 +30,11 @@ function Navbar() {
             !scrollPosition ? styles.container : styles.whiteContainer
           }>
           <div className={styles.logoContainer}>
-            <Image src="/logo.png" width={130} height={50} />
+            {!scrollPosition ? (
+              <Image src="/logo.png" width={140} height={50} />
+            ) : (
+              <Image src="/logo-black.png" width={140} height={50} />
+            )}
           </div>
           <div className={styles.linkContainer}>
             <ul className={styles.links}>

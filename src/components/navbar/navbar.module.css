@@ -1,5 +1,10 @@
 .relativeContainer {
   position: relative;
+  transition: transform 0.5s ease-in-out, background-color 0.4s ease-in-out;
+  transition-property: transform, background-color;
+  transition-duration: 0.5s, 0.4s;
+  z-index: 1000;
+  transition-timing-function: ease-in-out, ease-in-out;
 }
 .container {
   height: 80px;
@@ -8,6 +13,11 @@
   justify-content: space-around;
   position: fixed;
   width: 100%;
+  transition: transform 0.5s ease-in-out, background-color 0.4s ease-in-out;
+  transition-property: transform, background-color;
+  transition-duration: 0.5s, 0.4s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  z-index: 1000;
 }
 .whiteContainer {
   height: 80px;
@@ -16,6 +26,11 @@
   position: fixed;
   width: 100%;
   background-color: var(--bgColor);
+  transition: transform 0.5s ease-in-out, background-color 0.4s ease-in-out;
+  transition-property: transform, background-color;
+  transition-duration: 0.5s, 0.4s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  z-index: 1000;
 }
 .logoContainer {
   display: flex;

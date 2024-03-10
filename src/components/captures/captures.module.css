@@ -1,0 +1,28 @@
+.mainContainer {
+  min-height: 450px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: background-image 1s;
+  margin-top: 14em;
+}
+.textContainer {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 27%;
+  left: 14%;
+}
+
+.country {
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  list-style: none;
+  font-weight: 400;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}

@@ -1,0 +1,70 @@
+.mainContainer {
+  padding-top: 14em;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textContainer p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+.titleText {
+  color: var(--textBlue);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.titleDesc {
+  font-size: 34px;
+  max-width: 14.5em;
+}
+.normalDesc {
+  line-height: 1.5;
+  font-size: 17px;
+  max-width: 28.5em;
+  color: var(--textGrey);
+}
+.imagesContainer {
+  padding-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageContainer {
+  min-width: 759px;
+  min-height: 500px;
+  display: inline-flex;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+}
+.image {
+  display: inline;
+  position: relative;
+  vertical-align: bottom;
+}
+.infoContainer {
+  color: white;
+  align-self: end;
+  width: 75%;
+  padding-bottom: 3em;
+}
+.location {
+  font-size: 12px;
+  line-height: 1.3em;
+  display: inline;
+  border: 0.1px solid white;
+  font-weight: 400;
+  border-radius: 2px;
+  font-size: 11px !important;
+  padding: 2px 5px 2px 5px;
+  text-transform: capitalize;
+}
+.description {
+  margin-top: 9px;
+  text-transform: capitalize;
+  font-size: 20px;
+}

@@ -1,0 +1,33 @@
+.mainContainer {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  padding-top: 8em;
+}
+.guideContainer {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  padding: 0 18px 0 18px;
+}
+.headingContainer {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 8em;
+  left: 18px;
+  font-size: 28px;
+}
+.textHolder {
+  line-height: 1em;
+  width: 280px;
+  padding: 0 0 0 20px;
+}
+.date {
+  font-size: 12px;
+}
+.titleHolder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #141618;
+}
